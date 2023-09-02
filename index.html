@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr Khan's Portfolio</title>
+
+    <!-- Swiper CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+
+
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('RRy38_P2meaf5g3m5');
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- Header starts here -->
+    <header class="header">
+        <a href="" class="logo">Mr Khan.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Service</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Mohd Faisal Khan</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nulla quia impedit nobis excepturi
+                aut hic porro esse error! Beatae.</p>
+
+            <div class="social-media">
+                <a href=""><i class='bx bxl-meta'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Devloper</h3>
+                </div>
+                <div class="profession" style="--i:1">
+                    <i class='bx bxs-photo-album'></i>
+                    <h3>Web Devloper</h3>
+                </div>
+                <div class="profession" style="--i:2">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:3">
+                    <i class='bx bxs-camera'></i>
+                    <h3>Photographer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="#" alt="">
+        </div>
+    </section>
+
+
+    <!-- About Section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="faisal-img.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm Here To Help Your Next Project!</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus facere eos, consequuntur aperiam animi
+                ipsa ipsum quo suscipit. Quo tempore veritatis numquam ut, eos maxime assumenda magnam! Quisquam soluta
+                maiores illum! Minima harum facere eum natus nisi rerum, quidem et.faial</p>
+
+            <a href="" class="btn">Read More</a>
+        </div>
+    </section>
+
+
+    <!-- This is services section design -->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Devlopment</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error exercitationem tenetur commodi? Dolorem, ratione quos! Quisquam dolore, voluptates sequi officia quibusdam commodi.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Designing</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error exercitationem tenetur commodi? Dolorem, ratione quos! Quisquam dolore, voluptates sequi officia quibusdam commodi.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error exercitationem tenetur commodi? Dolorem, ratione quos! Quisquam dolore, voluptates sequi officia quibusdam commodi.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- This is Portfolio Section Design -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="PortfolioImage1.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Designing</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, tempora.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="blogingimg2.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Code Vloging</h4>
+                    <p>This Website contain coding vlogs and updates related to coding</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="dadjoke4.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Dad Joke</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, tempora.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="dictonaryimg3.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Dictonary</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, tempora.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="gymimg5.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Gym</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, tempora.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img6.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Designing</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, tempora.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- This is testominoal design -->
+
+    <div class="testimonal-container">
+        <h2 class="heading">Valuable <span>Testimonal</span></h2>
+
+        <div class="testimonal-wrapper">
+            <div class="testimonal-box mySwiper">
+                <div class="testimonal-content swiper-wrapper">
+                    <div class="testimonal-slide swiper-slide">
+                        <img src="Testimonal-img.avif" alt="">
+                        <h3>Ansar Jarvis</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quisquam. Impedit amet architecto quod reprehenderit id ducimus recusandae voluptates similique perspiciatis, iste doloribus, voluptatibus ea! Porro suscipit repudiandae rerum quam dolores, ut unde et ullam, magni quasi reiciendis reprehenderit fugiat veniam cupiditate similique commodi, sequi enim. Sapiente magni sunt quisquam.</p>
+                    </div>
+
+                    <div class="testimonal-slide swiper-slide">
+                        <img src="Testimonal-img2.avif" alt="">
+                        <h3>Md Arif</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quisquam. Impedit amet architecto quod reprehenderit id ducimus recusandae voluptates similique perspiciatis, iste doloribus, voluptatibus ea! Porro suscipit repudiandae rerum quam dolores, ut unde et ullam, magni quasi reiciendis reprehenderit fugiat veniam cupiditate similique commodi, sequi enim. Sapiente magni sunt quisquam.</p>
+                    </div>
+
+                    <div class="testimonal-slide swiper-slide">
+                        <img src="Testimonal-img3.avif" alt="">
+                        <h3>Shahazad</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quisquam. Impedit amet architecto quod reprehenderit id ducimus recusandae voluptates similique perspiciatis, iste doloribus, voluptatibus ea! Porro suscipit repudiandae rerum quam dolores, ut unde et ullam, magni quasi reiciendis reprehenderit fugiat veniam cupiditate similique commodi, sequi enim. Sapiente magni sunt quisquam.</p>
+                    </div>
+
+                    <div class="testimonal-slide swiper-slide">
+                        <img src="Testimonal-img4.avif" alt="">
+                        <h3>Tauseef Raza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quisquam. Impedit amet architecto quod reprehenderit id ducimus recusandae voluptates similique perspiciatis, iste doloribus, voluptatibus ea! Porro suscipit repudiandae rerum quam dolores, ut unde et ullam, magni quasi reiciendis reprehenderit fugiat veniam cupiditate similique commodi, sequi enim. Sapiente magni sunt quisquam.</p>
+                    </div>
+                </div>
+
+                    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact section design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form id="contect-form">
+            <div class="input-box">
+                <input name="from_name" type="text" placeholder="Full Name">
+                <input name="email" type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input name="mobile" type="number" placeholder="Mobile Number">
+                <input name="subject" type="text" placeholder="Email Subject">
+            </div>
+            <textarea  name="message" id="usermessage" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+
+    <!-- This is the footer area -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 By Faisal | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-IconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <!-- This is for Scroll reveal for animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- This is swiper javascript CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
